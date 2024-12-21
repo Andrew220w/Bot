@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Телеграмм интерфейс</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 15px;
+      background-color: #1c1c1c;
+      font-size: 16px;
+      border-bottom: 1px solid #333;
+    }
+
+    .header a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+
+    .title {
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .container {
+      padding: 15px;
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px;
+      background-color: #1c1c1c;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .item:hover {
+      background-color: #2a2a2a;
+    }
+
+    .item-icon {
+      color: #0088cc;
+      margin-right: 10px;
+      font-size: 20px;
+    }
+
+    .item-title {
+      flex-grow: 1;
+      font-size: 16px;
+    }
+
+    .item-value {
+      color: #aaaaaa;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <a href="#">Назад</a>
+  <div class="title">Neurs.AI - ChatGPT 4</div>
+  <a href="#">...</a>
+</div>
+
+<div class="container">
+  <div class="item">
+    <span class="item-icon">+</span>
+    <span class="item-title">Free подписка</span>
+    <span class="item-value">Бесплатно</span>
+  </div>
+
+  <div class="item">
+    <span class="item-icon">💰</span>
+    <span class="item-title">Баланс запросов</span>
+  </div>
+
+  <div class="item">
+    <span class="item-icon">📖</span>
+    <span class="item-title">Мои роли</span>
+  </div>
+
+  <div class="item">
+    <span class="item-icon">👥</span>
+    <span class="item-title">Пригласить друга</span>
+    <span class="item-value">0.00 ₽</span>
+  </div>
+
+  <div class="item">
+    <span class="item-icon">🎨</span>
+    <span class="item-title">Тема</span>
+    <span class="item-value">Системная</span>
+  </div>
+
+  <div class="item">
+    <span class="item-icon">🌐</span>
+    <span class="item-title">Язык</span>
+    <span class="item-value">Русский</span>
+  </div>
+
+  <div class="item">
+    <span class="item-icon">✉️</span>
+    <span class="item-title">Почта</span>
+    <span class="item-value">Не указана</span>
+  </div>
+
+  <div class="item">
+    <span class="item-icon">➕</span>
+    <span class="item-title">Добавить на экран "Домой"</span>
+  </div>
+
+  <div class="item">
+    <span class="item-icon">❓</span>
+    <span class="item-title">Поддержка</span>
+  </div>
+
+  <div class="item">
+    <span class="item-icon">📢</span>
+    <span class="item-title">Наш канал</span>
+  </div>
+</div>
+
+</body>
+</html>
